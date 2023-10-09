@@ -1,0 +1,11 @@
+version: "3"
+services:
+  development:
+    build:
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./:/app
+      - ./:/root
+    tty: true
+    ports:
+      - 2022:22

@@ -1,0 +1,7 @@
+# ignore all
+*
+
+# allow list
+!Dockerfile
+!docker-compose.yml
+!.gitignore

@@ -4,8 +4,8 @@ services:
     build:
       dockerfile: ./Dockerfile
     volumes:
-      - ./:/app
-      - ./:/root
+      - ./app:/app
+      - ./.root:/root
     tty: true
     ports:
       - 2022:22
